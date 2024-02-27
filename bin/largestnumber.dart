@@ -1,7 +1,7 @@
 import 'dart:io';
 
 void largestNumber() {
-  
+
   int a = int.parse(stdin.readLineSync()!);
   int b = int.parse(stdin.readLineSync()!);
   int c = int.parse(stdin.readLineSync()!);
@@ -9,8 +9,8 @@ void largestNumber() {
   if (a > b && a > c) {
     print("a is largest");
   } else if (b > c) { 
-    print("b is largest");
+    print("b become largest");
   } else {
-    print("c is largest");
+    print("c become largest");
   }
 }
