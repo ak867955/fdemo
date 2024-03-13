@@ -18,7 +18,7 @@ class Cars extends Vehicle {
   int numDoors;
 
 
-  Cars(String make, String model, int year, this.numDoors) : super(make, model, year);
+  Cars(String make, String model, int year, this.numDoors)  : super(make, model, year);
 
   @override
   void displayInfo() {
